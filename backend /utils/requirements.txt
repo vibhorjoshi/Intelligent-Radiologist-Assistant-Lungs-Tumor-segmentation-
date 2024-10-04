@@ -1,0 +1,20 @@
+Flask
+torch
+torchvision
+pillow
+numpy
+scikit-learn
+matplotlib
+pandas
+joblib
+
+# For bulk file uploads and handling
+Werkzeug
+
+# For report generation (if any PDF or document libraries are needed)
+reportlab
+
+# If database is needed (for storing patient/doctor data)
+SQLAlchemy
+psycopg2-binary  # For PostgreSQL if needed, can be omitted if not using
+ # For SQLite, should already be available with Python
